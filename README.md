@@ -27,3 +27,8 @@
 	    bash createSimpleAKSonAzure.ps1
 	
 5. Once done, run the below commands to check the configuration. Also check the portal for the deployment.
+
+6. Deploy a sample application based on available image by running the deployVoteApp.ps1. It basically applies the vote-app.yaml file to the AKS cluster.
+
+        kubectl apply -f vote-app.yaml
+        
